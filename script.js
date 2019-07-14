@@ -1,16 +1,17 @@
 //get input
-function getInput(){
+function workfunction(){
 var century = parseInt(document.getElementById("century"))
 var year = parseInt(document.getElementById("year"))
 var month = parseInt(document.getElementById("month"))
 var date = parseInt(document.getElementById("date"))
 }
 
-//calculate day of the week
-function calculate(){
-getInput();
+
+function workfunction(){
+document.getElementById('form').submit()
 var day = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date )% 7;
 return(math.floor(day))
+
 }
 var maleNames = ["Kwasi", "Kwasi", "Kwebena", "Kwaku", "Yaw", "Kofi", "Kwame",]
 var femaleNames = ["Akosua", "Adwona", "Abenaa", "Akua", "Yaa", "Afua", "Ama",]
@@ -46,4 +47,4 @@ else if(day == 4){document.write("thursday + femaleNames")}
 else if(day == 5){document.write("friaday + femaleNames")}
 else if(day == 6){document.write("saturday + femaleNames")}
 default
-console.log(getInput)
+console.log("workfunction")
