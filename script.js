@@ -25,7 +25,7 @@ var gender ="female"
 }else console.log("pass")
 }
 
-//assining akan names and days of birth
+
 switch(gender){
 case "male":
 if(day == 0){document.write("sunday + maleNames")}
