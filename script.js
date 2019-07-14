@@ -1,4 +1,4 @@
-//get input
+
 function workfunction(){
 var century = parseInt(document.getElementById("century"))
 var year = parseInt(document.getElementById("year"))
@@ -16,35 +16,36 @@ return(math.floor(day))
 var maleNames = ["Kwasi", "Kwasi", "Kwebena", "Kwaku", "Yaw", "Kofi", "Kwame",]
 var femaleNames = ["Akosua", "Adwona", "Abenaa", "Akua", "Yaa", "Afua", "Ama",]
 
-//radio button
-var rads = document.getElementByName("gender");{
+
+var gender = document.getElementByName("gender");{
 if(gender[0].checked == true){
 var gender = "male"
 }else if(gender[1].checked == true){
 var gender ="female"
-}else console.log("pass")
+}else console.log("gender")
 }
 
 
 switch(gender){
 case "male":
-if(day == 0){document.write("sunday + maleNames")}
-else if(day == 1){document.write("monday + maleNames")}
-else if(day == 2){document.write("tuesnday + maleNames")}
-else if(day == 3){document.write("wednesday + maleNames")}
-else if(day == 4){document.write("thursday + maleNames")}
-else if(day == 5){document.write("friaday + maleNames")}
-else if(day == 6){document.write("saturday + maleNames")
+if(day == 0){console.console.log();("sunday + maleNames")}
+else if(day == 1){console.log("monday + maleNames")}
+else if(day == 2){console.log("tuesnday + maleNames")}
+else if(day == 3){console.log("wednesday + maleNames")}
+else if(day == 4){console.log("thursday + maleNames")}
+else if(day == 5){console.log("friaday + maleNames")}
+else if(day == 6){console.log("saturday + maleNames")
 }
+break
 
 
 case "female":
-if(day == 0){document.write("sunday + femaleNames")}
-else if(day == 1){document.write("monday + femaleNames")}
-else if(day == 2){document.write("tuesnday + femaleNames")}
-else if(day == 3){document.write("wednesday + femaleNames")}
-else if(day == 4){document.write("thursday + femaleNames")}
-else if(day == 5){document.write("friaday + femaleNames")}
-else if(day == 6){document.write("saturday + femaleNames")}
+if(day == 0){console.console.log("sunday + femaleNames")}
+else if(day == 1){console.log("monday + femaleNames")}
+else if(day == 2){console.log("tuesnday + femaleNames")}
+else if(day == 3){console.log("wednesday + femaleNames")}
+else if(day == 4){console.log("thursday + femaleNames")}
+else if(day == 5){console.log("friaday + femaleNames")}
+else if(day == 6){console.log("saturday + femaleNames")}
 default
 console.log("workfunction")
