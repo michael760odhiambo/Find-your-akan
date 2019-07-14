@@ -12,6 +12,8 @@ the application takes a user's birthday and calculates the day of the week they 
 # live link
 https://github.com/michael760odhiambo/Find-your-akan/tree/master
 
+# contacts
+
 # Linsence
 # Copyright
   *  MIT License
