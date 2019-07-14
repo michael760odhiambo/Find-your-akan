@@ -45,9 +45,5 @@ else if(day == 3){document.write("wednesday + femaleNames")}
 else if(day == 4){document.write("thursday + femaleNames")}
 else if(day == 5){document.write("friaday + femaleNames")}
 else if(day == 6){document.write("saturday + femaleNames")}
-
-
-//break
 default
 console.log(getInput)
-//call all function in html btn
