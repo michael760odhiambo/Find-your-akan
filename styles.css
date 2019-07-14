@@ -41,7 +41,7 @@ nav > a{
   width: 100%;
   text-align: center;
   color: white;
-  
+
 
 }
 /*#overlay{
@@ -49,7 +49,7 @@ nav > a{
   width: 100%;
   background-color:#7b88ff;
 }*/
-.forms{
+#form{
   background-color: #7b88ff;
   text-align: center;
   color: white;
