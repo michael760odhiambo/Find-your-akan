@@ -1,0 +1,58 @@
+.main{
+  background-image: url("https://www.worldatlas.com/r/w728-h425-c728x425/upload/e1/19/b8/shutterstock-563866105.jpg");
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec{
+  background-color: rgb(0, 0, 0.78);
+  position: static;
+  height: 60px;
+
+}
+nav > a{
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: white;
+}
+.third{
+  left: 20px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+.for{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color:blue;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+
+}
+.about{
+  height: 200px;
+  background-color:rgb(0, 0, 150);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+  
+
+}
+/*#overlay{
+  height: 100%;
+  width: 100%;
+  background-color:#7b88ff;
+}*/
+.forms{
+  background-color: #7b88ff;
+  text-align: center;
+  color: white;
+  font-size: 23px;
+
+}
